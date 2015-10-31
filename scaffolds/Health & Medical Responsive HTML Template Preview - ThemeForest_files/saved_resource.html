@@ -1,0 +1,985 @@
+<!DOCTYPE html>
+<!-- saved from url=(0032)http://tradeskerala.com/medical/ -->
+<html class=" js flexbox flexboxlegacy canvas canvastext webgl touch geolocation postmessage websqldatabase indexeddb hashchange history draganddrop websockets rgba hsla multiplebgs backgroundsize borderimage borderradius boxshadow textshadow opacity cssanimations csscolumns cssgradients cssreflections csstransforms csstransforms3d csstransitions fontface generatedcontent video audio localstorage sessionstorage webworkers applicationcache svg inlinesvg smil svgclippaths" lang="en"><!--<![endif]--><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="description" content="Medical Theams">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+	<title>Medical Themes</title>
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link rel="stylesheet" href="font-awesome.css">
+    <link rel="stylesheet" href="custom-variation2.css">
+    <link rel="stylesheet" href="responsive.css"> 
+    <link href="css" rel="stylesheet" type="text/css">
+    <link href="css(1)" rel="stylesheet" type="text/css">
+    <link href="css(2)" rel="stylesheet" type="text/css">
+    
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="js/vendor/html5shiv.min.js"></script>
+      <script src="js/vendor/respond.min.js"></script>
+    <![endif]-->
+    
+
+<script type="text/javascript" src="validation.js"></script><style type="text/css"></style>
+<script type="text/javascript">
+"use strict";
+function sendContact() {
+    var valid;	
+    valid = validateContact();
+    if(valid) {
+		var name = $("#apname").val();
+        var email = $("#apemail").val();
+        var tel = $("#aptel").val();
+        var date = $("#apdate").val();
+        var comment = $("#apcomment").val();
+        var dataString = 'apname='+ name + '&apemail=' + email + '&aptel=' + tel + '&apdate=' + date + '&apcomment=' + comment;
+        
+        jQuery.ajax({
+            url: "email.php",
+            data:dataString,
+            type: "POST",
+            success:function(data){
+                $(".success").html(data);
+            },
+            error:function (){}
+        });
+    }
+}
+
+
+</script>
+</head>
+<body class="in-align">
+<!--[if lt IE 7]>
+<p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade your browser</a> to improve your experience.</p>
+<![endif]-->
+
+<div class="outer-sync var2">
+      <!--==================================
+       		 Header parts starts here
+        ==================================-->
+	<header>
+    	<div class="container">
+        <div class="row">
+        <div class="col-sm-12 top-strip">
+            <h2 class="delt-bord">Email :<a href="http://tradeskerala.com/medical/#">info@medicaltheme.com</a></h2>
+            <h2>Call :<a href="http://tradeskerala.com/medical/#"> 8876 7786 999</a></h2>
+        </div><!-- /.col-sm-12 -->
+        <div class="col-sm-12 bottom-strip p-both">
+        <div class="col-sm-3 logo">
+        	<a href="http://tradeskerala.com/medical/#"><img src="logo-var2.png" alt="medical theams"></a>
+        </div><!-- /.col-sm-3 -->
+        <div class="col-sm-9 navigation">
+        	<nav class="navbar navbar-default">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                </div>
+            
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <li class="dropdown active drop">
+                      <a href="http://tradeskerala.com/medical/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Home</a>
+                      <ul class="dropdown-menu" role="menu">
+                      <li class="drop-down-bg"></li>
+                        <li><a href="http://tradeskerala.com/medical/index.html">Homepage variation-1</a></li>
+                        <li><a href="http://tradeskerala.com/medical/index-variation1.html">Homepage variation-2</a></li>
+                        <li><a href="http://tradeskerala.com/medical/index-variation2.html">Homepage variation-3</a></li>
+                      </ul>
+                    </li>
+                    <li><a href="http://tradeskerala.com/medical/about.html">about us</a></li>
+                    <li><a href="http://tradeskerala.com/medical/doctor.html">doctors</a></li>
+                    <li><a href="http://tradeskerala.com/medical/service.html">services</a></li>
+                    <li><a href="http://tradeskerala.com/medical/news.html">news</a></li>
+                    <li class="dropdown drop">
+                      <a href="http://tradeskerala.com/medical/#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">pages</a>
+                      <ul class="dropdown-menu" role="menu">
+                        <li class="drop-down-bg"></li>
+                        <li><a href="http://tradeskerala.com/medical/blog.html">Blog</a></li>
+                        <li><a href="http://tradeskerala.com/medical/blog-detail.html">Blog details</a></li>
+                        <li><a href="http://tradeskerala.com/medical/doctor-timetable.html">Doctors timetable</a></li>
+                        <li><a href="http://tradeskerala.com/medical/error404.html">404 error</a></li>
+                        <li><a href="http://tradeskerala.com/medical/appointments.html">Appointment</a></li>
+                      </ul>
+                    </li><li><a href="http://tradeskerala.com/medical/contact.html" class="p-r">contact us</a></li>
+                    <li><a href="http://tradeskerala.com/medical/appointments.html" class="lst-head">Appointment</a></li>
+                  </ul>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
+        </div><!-- /.col-sm-9 -->
+        </div><!-- /.col-sm-12 -->
+        </div><!-- /.row -->
+        </div><!-- /.container -->
+    </header><!-- #header -->                                            
+
+      <!--==================================
+       		 Header parts ends here
+       	  ==================================-->
+      <!--==================================
+       		Banner parts starts here
+          ==================================-->
+<div class="banner-wrapper">
+	<div class="banner">
+    	<img src="banner2.jpg" alt="banner">
+    </div><!-- /.banner -->
+    <div class="magnet">
+    <div class="container">
+    <div class="row">
+    	<div class="col-sm-6 main-form">
+        	<h2 class="h24">make an 
+			<span>appointment</span></h2>
+    
+            <div class="for49">
+            <form>
+            <input type="text" class="all-in" placeholder="Your name*" id="apname">
+            <input type="text" class="all-in" placeholder="Phone Number*" id="aptel">
+            <input type="text" class="all-in" placeholder="Email Address*" id="apemail">
+            </form>
+            </div>
+            <div class="for49">
+            <!--<form>
+            <input type="text" class="all-in"  placeholder="Appoinment Date*" id="apdate" />
+            </form>-->
+            <fieldset>
+                <div class="form-group">
+                    <div class="input-group date form_date" data-date="" data-date-format="dd MM yyyy" data-link-field="dtp_input2" data-link-format="yyyy-mm-dd">
+                    <form>
+                        <input type="text" class="all-in" placeholder="Appointment date*" value="" id="apdate">
+                    </form>    
+                        <span class="input-group-addon"><span class="glyphicon glyphicon-th"></span></span>
+                    </div>
+                    <form>
+                    <input type="hidden" id="dtp_input2" value="">
+                    </form>
+                </div>
+            </fieldset>
+            <div class="tracker">
+            <form>
+            <textarea placeholder="Comment*" id="apcomment"></textarea>
+            </form>
+            <button class="bt" type="button" onclick="sendContact();">go</button>
+            </div><!-- ./tracker -->
+            <div class="success"></div>
+			<div id="ferror"></div>
+            </div>
+        </div><!--/.main-page-form-->
+   		<div class="col-sm-6 working-times">
+        	<h2 class="h24">Our 
+			<span>working times</span></h2>
+            <div class="details">
+                <p> Monday -friday : 
+                <span>8 AM-17 pm</span></p>
+                <p> Saturday - Sunday : 
+                <span>9 AM-15 pm</span></p>
+            </div><!-- /.details -->
+            <div class="discription">
+            	<p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has industry's standard dummy text ever since the.</p>
+                <a href="http://tradeskerala.com/medical/doctor-timetable.html" class="put"> Dr.Timetable</a>
+            </div><!-- /.discription -->
+        </div><!--/.working-times--> 
+    </div><!-- /.row -->
+    </div><!-- /.container -->  
+    </div><!-- /.magnet -->
+</div><!-- /.banner-wrapper -->    
+      <!--==================================
+       		Banner parts ends here
+          ==================================-->
+      <!--==================================
+       		service Quick links starts here
+          ==================================-->    
+    <div class="first-section p82-topbot">
+    <div class="container">
+    <div class="row">
+       			 <div class="col-sm-3 element-lft lft-bottom">
+                      <img src="icon-doc-var1.png" alt="Find a Doctor">
+                      <div class="text-needleft">
+                      <h2>Find a Doctor</h2>
+                      <p>Scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                      </div>
+                      <a href="http://tradeskerala.com/medical/doctor-timetable.html" class="var2-bt"></a>
+                 </div>
+
+                 <div class="col-sm-3 element-lft lft-bottom">
+                      <img src="icon-dep-var1.png" alt="Departments">
+                      <div class="text-needleft">
+                      <h2>Departments</h2>
+                      <p>Scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                      </div>
+                      <a href="http://tradeskerala.com/medical/service.html" class="var2-bt active"></a>
+                 </div>
+
+                 <div class="col-sm-3 element-lft">
+                       <img src="icon-loc-var1.png" alt="Our Locations">
+                       <div class="text-needleft">
+                       <h2>Our Locations</h2>
+                       <p>Scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                       </div>
+                       <a href="http://tradeskerala.com/medical/contact.html" class="var2-bt"></a>
+                 </div>
+
+                 <div class="col-sm-3 element-lft">
+                       <img src="icon-pay-var1.png" alt="Pay your bill online">
+                       <div class="text-needleft">
+                       <h2>pay your bill online</h2>
+                       <p>Scrambled it to make a type specimen book. It has survived not only five centuries</p>
+                       </div>
+                       <a href="http://tradeskerala.com/medical/appointments.html" class="var2-bt"></a>
+                 </div>
+    </div><!-- /.row -->
+    </div><!-- /.container -->  
+    </div><!-- /.first-section -->      
+     <!--==================================
+       		Service Quick liniks ends here
+          ==================================-->
+     <!--==================================
+       		News update and our doctors starts here
+          ==================================-->
+    <div class="second-section p82-topbot">
+    <div class="container">
+    <div class="row">
+        <div class="col-sm-4 member">
+		<h2 class="title-grp">
+    	<span>New</span>
+ 			updates
+       	</h2>
+        
+        <div class="all-news">
+        	<div class="bx-wrapper" style="max-width: 100%; margin: 0px auto;"><div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 372px;"><ul class="disast" style="width: auto; position: relative; transition-duration: 0s; transform: translate3d(0px, -344px, 0px);"><li style="float: none; list-style: none; position: relative; width: 360px;" class="bx-clone">
+            	<div class="news-date">
+                <span>02</span>
+                10-15
+                </div>
+                <div class="news-text">
+                <h2>Heading here</h2> 
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p></div>
+            </li><li style="float: none; list-style: none; position: relative; width: 360px;" class="bx-clone">
+            	<div class="news-date">
+                <span>02</span>
+                10-15
+                </div>
+                <div class="news-text">
+                <h2>Heading here</h2> 
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p></div>
+            </li><li style="float: none; list-style: none; position: relative; width: 360px;" class="bx-clone">
+            	<div class="news-date">
+                <span>02</span>
+                10-15
+                </div>
+                <div class="news-text">
+                <h2>Heading here</h2> 
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p></div>
+            </li>
+            <li style="float: none; list-style: none; position: relative; width: 360px;">
+            	<div class="news-date">
+                <span>02</span>
+                10-15
+                </div>
+                <div class="news-text">
+                <h2>Heading here</h2> 
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p></div>
+            </li>
+            <li style="float: none; list-style: none; position: relative; width: 360px;">
+            	<div class="news-date">
+                <span>02</span>
+                10-15
+                </div>
+                <div class="news-text">
+                <h2>Heading here</h2> 
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p></div>
+            </li>
+            <li style="float: none; list-style: none; position: relative; width: 360px;">
+            	<div class="news-date">
+                <span>02</span>
+                10-15
+                </div>
+                <div class="news-text">
+                <h2>Heading here</h2> 
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p></div>
+            </li>
+            <li style="float: none; list-style: none; position: relative; width: 360px;" class="bx-clone">
+            	<div class="news-date">
+                <span>02</span>
+                10-15
+                </div>
+                <div class="news-text">
+                <h2>Heading here</h2> 
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p></div>
+            </li><li style="float: none; list-style: none; position: relative; width: 360px;" class="bx-clone">
+            	<div class="news-date">
+                <span>02</span>
+                10-15
+                </div>
+                <div class="news-text">
+                <h2>Heading here</h2> 
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p></div>
+            </li><li style="float: none; list-style: none; position: relative; width: 360px;" class="bx-clone">
+            	<div class="news-date">
+                <span>02</span>
+                10-15
+                </div>
+                <div class="news-text">
+                <h2>Heading here</h2> 
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                </p></div>
+            </li></ul></div><div class="bx-controls bx-has-controls-direction"><div class="bx-controls-direction"><a class="bx-prev disabled" href=""></a><a class="bx-next disabled" href=""></a></div></div></div><!-- ./disast -->
+        </div><!-- /.all-news -->
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-8 must member">
+            <h2 class="title-grp">
+              <span>our</span>
+                    Doctors
+            </h2>
+        <div class="all-doc">
+        <div class="bx-wrapper" style="max-width: 100%; margin: 0px auto;"><div class="bx-viewport" style="width: 100%; overflow: hidden; position: relative; height: 352px;"><ul class="sliding" style="width: 415%; position: relative; transition-duration: 0.5s; transform: translate3d(-2250px, 0px, 0px);"><li style="float: left; list-style: none; position: relative; width: 750px;" class="bx-clone">    
+		<div class="col-sm-6">
+        	<div class="white-bx">
+            	<img src="doctor2-1.png" alt="doc">
+                <div class="letter">
+            	<h2><span>Dr. anakha mathew</span>
+				Specializes in Dental</h2>
+                </div>
+                <div class="social-media">
+                    	<a href="http://tradeskerala.com/medical/#" class="tst"><img src="face.png" alt="facebook"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="twitt.png" alt="twitter"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="google.png" alt="google+"></a>
+                        <a href="http://tradeskerala.com/medical/#" class="bg">More</a>
+                </div><!-- /.social-media -->	
+            </div><!-- /.white-bx -->
+        </div><!-- /.col-sm-6 --> 
+        
+        <div class="col-sm-6">
+        	<div class="white-bx">
+            	<img src="doctor2-2.png" alt="doc">
+                <div class="letter">
+            	<h2><span>Dr. anakha mathew</span>
+				Specializes in Dental</h2>
+                </div>
+                <div class="social-media">
+                    	<a href="http://tradeskerala.com/medical/#" class="tst"><img src="face.png" alt="facebook"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="twitt.png" alt="twitter"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="google.png" alt="google+"></a>
+                        <a href="http://tradeskerala.com/medical/#" class="bg">More</a>
+                </div><!-- /.social-media -->	
+            </div><!-- /.white-bx -->
+        </div><!-- /.col-sm-6 --> 
+        
+        <div class="col-sm-6">
+        	<div class="white-bx">
+            	<img src="doctor2-3.png" alt="doc">
+                <div class="letter">
+            	<h2><span>Dr. anakha mathew</span>
+				Specializes in Dental</h2>
+                </div>
+                <div class="social-media">
+                    	<a href="http://tradeskerala.com/medical/#" class="tst"><img src="face.png" alt="facebook"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="twitt.png" alt="twitter"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="google.png" alt="google+"></a>
+                        <a href="http://tradeskerala.com/medical/#" class="bg">More</a>
+                </div><!-- /.social-media -->	
+            </div><!-- /.white-bx -->
+        </div><!-- /.col-sm-6 --> 
+        
+        <div class="col-sm-6">
+        	<div class="white-bx">
+            	<img src="doctor2-4.png" alt="doc">
+                <div class="letter">
+            	<h2><span>Dr. anakha mathew</span>
+				Specializes in Dental</h2>
+                </div>
+                <div class="social-media">
+                    	<a href="http://tradeskerala.com/medical/#" class="tst"><img src="face.png" alt="facebook"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="twitt.png" alt="twitter"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="google.png" alt="google+"></a>
+                        <a href="http://tradeskerala.com/medical/#" class="bg">More</a>
+                </div><!-- /.social-media -->	
+            </div><!-- /.white-bx -->
+        </div><!-- /.col-sm-6 --> 
+        </li><li style="float: left; list-style: none; position: relative; width: 750px;" class="bx-clone">    
+		<div class="col-sm-6">
+        	<div class="white-bx">
+            	<img src="doctor2-1.png" alt="doc">
+                <div class="letter">
+            	<h2><span>Dr. anakha mathew</span>
+				Specializes in Dental</h2>
+                </div>
+                <div class="social-media">
+                    	<a href="http://tradeskerala.com/medical/#" class="tst"><img src="face.png" alt="facebook"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="twitt.png" alt="twitter"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="google.png" alt="google+"></a>
+                        <a href="http://tradeskerala.com/medical/#" class="bg">More</a>
+                </div><!-- /.social-media -->	
+            </div><!-- /.white-bx -->
+        </div><!-- /.col-sm-6 --> 
+        
+        <div class="col-sm-6">
+        	<div class="white-bx">
+            	<img src="doctor2-2.png" alt="doc">
+                <div class="letter">
+            	<h2><span>Dr. anakha mathew</span>
+				Specializes in Dental</h2>
+                </div>
+                <div class="social-media">
+                    	<a href="http://tradeskerala.com/medical/#" class="tst"><img src="face.png" alt="facebook"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="twitt.png" alt="twitter"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="google.png" alt="google+"></a>
+                        <a href="http://tradeskerala.com/medical/#" class="bg">More</a>
+                </div><!-- /.social-media -->	
+            </div><!-- /.white-bx -->
+        </div><!-- /.col-sm-6 --> 
+        
+        <div class="col-sm-6">
+        	<div class="white-bx">
+            	<img src="doctor2-3.png" alt="doc">
+                <div class="letter">
+            	<h2><span>Dr. anakha mathew</span>
+				Specializes in Dental</h2>
+                </div>
+                <div class="social-media">
+                    	<a href="http://tradeskerala.com/medical/#" class="tst"><img src="face.png" alt="facebook"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="twitt.png" alt="twitter"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="google.png" alt="google+"></a>
+                        <a href="http://tradeskerala.com/medical/#" class="bg">More</a>
+                </div><!-- /.social-media -->	
+            </div><!-- /.white-bx -->
+        </div><!-- /.col-sm-6 --> 
+        
+        <div class="col-sm-6">
+        	<div class="white-bx">
+            	<img src="doctor2-4.png" alt="doc">
+                <div class="letter">
+            	<h2><span>Dr. anakha mathew</span>
+				Specializes in Dental</h2>
+                </div>
+                <div class="social-media">
+                    	<a href="http://tradeskerala.com/medical/#" class="tst"><img src="face.png" alt="facebook"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="twitt.png" alt="twitter"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="google.png" alt="google+"></a>
+                        <a href="http://tradeskerala.com/medical/#" class="bg">More</a>
+                </div><!-- /.social-media -->	
+            </div><!-- /.white-bx -->
+        </div><!-- /.col-sm-6 --> 
+        </li>
+        <li style="float: left; list-style: none; position: relative; width: 750px;">    
+		<div class="col-sm-6">
+        	<div class="white-bx">
+            	<img src="doctor2-1.png" alt="doc">
+                <div class="letter">
+            	<h2><span>Dr. anakha mathew</span>
+				Specializes in Dental</h2>
+                </div>
+                <div class="social-media">
+                    	<a href="http://tradeskerala.com/medical/#" class="tst"><img src="face.png" alt="facebook"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="twitt.png" alt="twitter"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="google.png" alt="google+"></a>
+                        <a href="http://tradeskerala.com/medical/#" class="bg">More</a>
+                </div><!-- /.social-media -->	
+            </div><!-- /.white-bx -->
+        </div><!-- /.col-sm-6 --> 
+        
+        <div class="col-sm-6">
+        	<div class="white-bx">
+            	<img src="doctor2-2.png" alt="doc">
+                <div class="letter">
+            	<h2><span>Dr. anakha mathew</span>
+				Specializes in Dental</h2>
+                </div>
+                <div class="social-media">
+                    	<a href="http://tradeskerala.com/medical/#" class="tst"><img src="face.png" alt="facebook"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="twitt.png" alt="twitter"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="google.png" alt="google+"></a>
+                        <a href="http://tradeskerala.com/medical/#" class="bg">More</a>
+                </div><!-- /.social-media -->	
+            </div><!-- /.white-bx -->
+        </div><!-- /.col-sm-6 --> 
+        
+        <div class="col-sm-6">
+        	<div class="white-bx">
+            	<img src="doctor2-3.png" alt="doc">
+                <div class="letter">
+            	<h2><span>Dr. anakha mathew</span>
+				Specializes in Dental</h2>
+                </div>
+                <div class="social-media">
+                    	<a href="http://tradeskerala.com/medical/#" class="tst"><img src="face.png" alt="facebook"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="twitt.png" alt="twitter"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="google.png" alt="google+"></a>
+                        <a href="http://tradeskerala.com/medical/#" class="bg">More</a>
+                </div><!-- /.social-media -->	
+            </div><!-- /.white-bx -->
+        </div><!-- /.col-sm-6 --> 
+        
+        <div class="col-sm-6">
+        	<div class="white-bx">
+            	<img src="doctor2-4.png" alt="doc">
+                <div class="letter">
+            	<h2><span>Dr. anakha mathew</span>
+				Specializes in Dental</h2>
+                </div>
+                <div class="social-media">
+                    	<a href="http://tradeskerala.com/medical/#" class="tst"><img src="face.png" alt="facebook"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="twitt.png" alt="twitter"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="google.png" alt="google+"></a>
+                        <a href="http://tradeskerala.com/medical/#" class="bg">More</a>
+                </div><!-- /.social-media -->	
+            </div><!-- /.white-bx -->
+        </div><!-- /.col-sm-6 --> 
+        </li>
+        
+        <li style="float: left; list-style: none; position: relative; width: 750px;">    
+		<div class="col-sm-6">
+        	<div class="white-bx">
+            	<img src="doctor2-1.png" alt="doc">
+                <div class="letter">
+            	<h2><span>Dr. anakha mathew</span>
+				Specializes in Dental</h2>
+                </div>
+                <div class="social-media">
+                    	<a href="http://tradeskerala.com/medical/#" class="tst"><img src="face.png" alt="facebook"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="twitt.png" alt="twitter"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="google.png" alt="google+"></a>
+                        <a href="http://tradeskerala.com/medical/#" class="bg">More</a>
+                </div><!-- /.social-media -->	
+            </div><!-- /.white-bx -->
+        </div><!-- /.col-sm-6 --> 
+        
+        <div class="col-sm-6">
+        	<div class="white-bx">
+            	<img src="doctor2-2.png" alt="doc">
+                <div class="letter">
+            	<h2><span>Dr. anakha mathew</span>
+				Specializes in Dental</h2>
+                </div>
+                <div class="social-media">
+                    	<a href="http://tradeskerala.com/medical/#" class="tst"><img src="face.png" alt="facebook"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="twitt.png" alt="twitter"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="google.png" alt="google+"></a>
+                        <a href="http://tradeskerala.com/medical/#" class="bg">More</a>
+                </div><!-- /.social-media -->	
+            </div><!-- /.white-bx -->
+        </div><!-- /.col-sm-6 --> 
+        
+        <div class="col-sm-6">
+        	<div class="white-bx">
+            	<img src="doctor2-3.png" alt="doc">
+                <div class="letter">
+            	<h2><span>Dr. anakha mathew</span>
+				Specializes in Dental</h2>
+                </div>
+                <div class="social-media">
+                    	<a href="http://tradeskerala.com/medical/#" class="tst"><img src="face.png" alt="facebook"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="twitt.png" alt="twitter"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="google.png" alt="google+"></a>
+                        <a href="http://tradeskerala.com/medical/#" class="bg">More</a>
+                </div><!-- /.social-media -->	
+            </div><!-- /.white-bx -->
+        </div><!-- /.col-sm-6 --> 
+        
+        <div class="col-sm-6">
+        	<div class="white-bx">
+            	<img src="doctor2-4.png" alt="doc">
+                <div class="letter">
+            	<h2><span>Dr. anakha mathew</span>
+				Specializes in Dental</h2>
+                </div>
+                <div class="social-media">
+                    	<a href="http://tradeskerala.com/medical/#" class="tst"><img src="face.png" alt="facebook"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="twitt.png" alt="twitter"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="google.png" alt="google+"></a>
+                        <a href="http://tradeskerala.com/medical/#" class="bg">More</a>
+                </div><!-- /.social-media -->	
+            </div><!-- /.white-bx -->
+        </div><!-- /.col-sm-6 --> 
+        </li>
+        
+        <li style="float: left; list-style: none; position: relative; width: 750px;" class="bx-clone">    
+		<div class="col-sm-6">
+        	<div class="white-bx">
+            	<img src="doctor2-1.png" alt="doc">
+                <div class="letter">
+            	<h2><span>Dr. anakha mathew</span>
+				Specializes in Dental</h2>
+                </div>
+                <div class="social-media">
+                    	<a href="http://tradeskerala.com/medical/#" class="tst"><img src="face.png" alt="facebook"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="twitt.png" alt="twitter"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="google.png" alt="google+"></a>
+                        <a href="http://tradeskerala.com/medical/#" class="bg">More</a>
+                </div><!-- /.social-media -->	
+            </div><!-- /.white-bx -->
+        </div><!-- /.col-sm-6 --> 
+        
+        <div class="col-sm-6">
+        	<div class="white-bx">
+            	<img src="doctor2-2.png" alt="doc">
+                <div class="letter">
+            	<h2><span>Dr. anakha mathew</span>
+				Specializes in Dental</h2>
+                </div>
+                <div class="social-media">
+                    	<a href="http://tradeskerala.com/medical/#" class="tst"><img src="face.png" alt="facebook"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="twitt.png" alt="twitter"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="google.png" alt="google+"></a>
+                        <a href="http://tradeskerala.com/medical/#" class="bg">More</a>
+                </div><!-- /.social-media -->	
+            </div><!-- /.white-bx -->
+        </div><!-- /.col-sm-6 --> 
+        
+        <div class="col-sm-6">
+        	<div class="white-bx">
+            	<img src="doctor2-3.png" alt="doc">
+                <div class="letter">
+            	<h2><span>Dr. anakha mathew</span>
+				Specializes in Dental</h2>
+                </div>
+                <div class="social-media">
+                    	<a href="http://tradeskerala.com/medical/#" class="tst"><img src="face.png" alt="facebook"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="twitt.png" alt="twitter"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="google.png" alt="google+"></a>
+                        <a href="http://tradeskerala.com/medical/#" class="bg">More</a>
+                </div><!-- /.social-media -->	
+            </div><!-- /.white-bx -->
+        </div><!-- /.col-sm-6 --> 
+        
+        <div class="col-sm-6">
+        	<div class="white-bx">
+            	<img src="doctor2-4.png" alt="doc">
+                <div class="letter">
+            	<h2><span>Dr. anakha mathew</span>
+				Specializes in Dental</h2>
+                </div>
+                <div class="social-media">
+                    	<a href="http://tradeskerala.com/medical/#" class="tst"><img src="face.png" alt="facebook"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="twitt.png" alt="twitter"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="google.png" alt="google+"></a>
+                        <a href="http://tradeskerala.com/medical/#" class="bg">More</a>
+                </div><!-- /.social-media -->	
+            </div><!-- /.white-bx -->
+        </div><!-- /.col-sm-6 --> 
+        </li><li style="float: left; list-style: none; position: relative; width: 750px;" class="bx-clone">    
+		<div class="col-sm-6">
+        	<div class="white-bx">
+            	<img src="doctor2-1.png" alt="doc">
+                <div class="letter">
+            	<h2><span>Dr. anakha mathew</span>
+				Specializes in Dental</h2>
+                </div>
+                <div class="social-media">
+                    	<a href="http://tradeskerala.com/medical/#" class="tst"><img src="face.png" alt="facebook"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="twitt.png" alt="twitter"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="google.png" alt="google+"></a>
+                        <a href="http://tradeskerala.com/medical/#" class="bg">More</a>
+                </div><!-- /.social-media -->	
+            </div><!-- /.white-bx -->
+        </div><!-- /.col-sm-6 --> 
+        
+        <div class="col-sm-6">
+        	<div class="white-bx">
+            	<img src="doctor2-2.png" alt="doc">
+                <div class="letter">
+            	<h2><span>Dr. anakha mathew</span>
+				Specializes in Dental</h2>
+                </div>
+                <div class="social-media">
+                    	<a href="http://tradeskerala.com/medical/#" class="tst"><img src="face.png" alt="facebook"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="twitt.png" alt="twitter"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="google.png" alt="google+"></a>
+                        <a href="http://tradeskerala.com/medical/#" class="bg">More</a>
+                </div><!-- /.social-media -->	
+            </div><!-- /.white-bx -->
+        </div><!-- /.col-sm-6 --> 
+        
+        <div class="col-sm-6">
+        	<div class="white-bx">
+            	<img src="doctor2-3.png" alt="doc">
+                <div class="letter">
+            	<h2><span>Dr. anakha mathew</span>
+				Specializes in Dental</h2>
+                </div>
+                <div class="social-media">
+                    	<a href="http://tradeskerala.com/medical/#" class="tst"><img src="face.png" alt="facebook"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="twitt.png" alt="twitter"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="google.png" alt="google+"></a>
+                        <a href="http://tradeskerala.com/medical/#" class="bg">More</a>
+                </div><!-- /.social-media -->	
+            </div><!-- /.white-bx -->
+        </div><!-- /.col-sm-6 --> 
+        
+        <div class="col-sm-6">
+        	<div class="white-bx">
+            	<img src="doctor2-4.png" alt="doc">
+                <div class="letter">
+            	<h2><span>Dr. anakha mathew</span>
+				Specializes in Dental</h2>
+                </div>
+                <div class="social-media">
+                    	<a href="http://tradeskerala.com/medical/#" class="tst"><img src="face.png" alt="facebook"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="twitt.png" alt="twitter"></a>
+                        <a href="http://tradeskerala.com/medical/#"><img src="google.png" alt="google+"></a>
+                        <a href="http://tradeskerala.com/medical/#" class="bg">More</a>
+                </div><!-- /.social-media -->	
+            </div><!-- /.white-bx -->
+        </div><!-- /.col-sm-6 --> 
+        </li></ul></div><div class="bx-controls bx-has-controls-direction"><div class="bx-controls-direction"><a class="bx-prev" href=""></a><a class="bx-next" href=""></a></div></div></div>
+        </div><!-- /.all-doc -->   
+         </div><!-- /.col-sm-8 -->
+    </div><!-- /.row -->
+    </div><!-- /.container -->  
+    </div><!-- /.second-section -->      
+     <!--==================================
+       		News update and our doctors ends here
+          ==================================-->  
+          
+     <!--==================================
+       		Our history and our Department here
+          ==================================-->
+    <div class="repeter-section p82-topbot">
+    <div class="container">
+    <div class="row">
+		<div class="col-sm-4 history11">
+       		 <h2 class="title-grp">
+              <span>our</span>
+                    history
+            </h2>
+            <img src="history2.jpg" alt="History">
+            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
+            <a href="http://tradeskerala.com/medical/#" class="bg">Read more</a>
+        </div><!-- /.col-sm-4 -->
+        <div class="col-sm-8 department">
+       		 <h2 class="title-grp">
+              <span>our</span>
+                    department
+            </h2>
+            <div class="dept">
+            	<ul>
+                	<li id="flip1" class="dic"><h3 id="head1" class="minus" style="background-image: url(http://tradeskerala.com/medical/images/icons/flip-ico.png);"><img src="dent.png" alt="dental">dental clinic</h3>
+                    	 <div id="panel1" style="display: block;">
+                			<img src="accordian2.jpg" alt="image">
+                            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
+                			<a href="http://tradeskerala.com/medical/service.html" class="bg">Details</a>
+                        </div>
+                    </li> 
+                    <li id="flip2" class="dic"><h3 id="head2"><img src="med.png" alt="medicine">Medicne Department</h3>
+                    	 <div id="panel2">
+                			<img src="accordian3.jpg" alt="image">
+                            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
+                			<a href="http://tradeskerala.com/medical/service.html" class="bg">Details</a>
+                		</div>
+                    </li> 
+                    <li id="flip3" class="dic"><h3 id="head3"><img src="pre.png" alt="pregnancy">Pregnancy Center</h3>
+                    	 <div id="panel3">
+                			<img src="accordian4.jpg" alt="image">
+                            <p>Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, </p>
+                			<a href="http://tradeskerala.com/medical/service.html" class="bg">Details</a>
+                		</div>
+                    </li>                
+                </ul>
+              
+            </div><!-- /.dept -->
+            <a href="http://tradeskerala.com/medical/#" class="bg out-a">View all</a>
+        </div><!-- /.col-sm-8 -->
+    </div><!-- /.row -->
+    </div><!-- /.container -->  
+    </div><!-- /.repeter-section -->      
+     <!--==================================
+       		Our history and our Department ends here
+          ==================================-->                     
+     <!--==================================
+       		Service section starts here
+          ==================================-->
+    <div class="third-section p82-topbot">
+    <div class="container">
+    <div class="row">
+    	<div class="col-sm-12">
+    	<h2 class="title-grp">
+                        <span>Our</span>
+                        Services
+                    </h2>
+        </div>            
+        <div class="col-md-3 col-sm-6">
+            <div class="service-box">
+                <img src="icon-med-var2.png" alt="med">
+                <h2>medical SERVICE</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <a href="http://tradeskerala.com/medical/service.html" class="readmore">Read More <i><img src="soci-ico.png" alt="im"></i></a>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+            <div class="service-box">
+                <img src="icon-serv-var2.png" alt="serv">
+                <h2>24 Hours Service</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <a href="http://tradeskerala.com/medical/service.html" class="readmore">Read More <i><img src="soci-ico.png" alt="im"></i></a>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+            <div class="service-box">
+                <img src="icon-emerg-var2.png" alt="emerg">
+                <h2>Emergency Departments</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <a href="http://tradeskerala.com/medical/service.html" class="readmore">Read More <i><img src="soci-ico.png" alt="im"></i></a>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+            <div class="service-box">
+                <img src="icon-xray-var2.png" alt="xray">
+                <h2>x-RAY</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <a href="http://tradeskerala.com/medical/service.html" class="readmore">Read More <i><img src="soci-ico.png" alt="im"></i></a>
+            </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+                <div class="service-box">
+                    <img src="icon-card-var2.png" alt="card">
+                    <h2>CARDIOLOGY</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <a href="http://tradeskerala.com/medical/service.html" class="readmore">Read More <i><img src="soci-ico.png" alt="im"></i></a>
+                </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+                <div class="service-box">
+                    <img src="icon-neur-var2.png" alt="neur">
+                    <h2>nEUROLOGY</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <a href="http://tradeskerala.com/medical/service.html" class="readmore">Read More <i><img src="soci-ico.png" alt="im"></i></a>
+                </div>
+        </div>
+
+        <div class="col-md-3 col-sm-6">
+                <div class="service-box">
+                    <img src="icon-preg-var2.png" alt="preg">
+                    <h2>PREGNANCY</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <a href="http://tradeskerala.com/medical/service.html" class="readmore">Read More <i><img src="soci-ico.png" alt="im"></i></a>
+                </div>
+        </div>
+
+         <div class="col-md-3 col-sm-6">
+                <div class="service-box">
+                    <img src="icon-dent-var2.png" alt="dent">
+                    <h2>DENTAL</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <a href="http://tradeskerala.com/medical/service.html" class="readmore">Read More <i><img src="soci-ico.png" alt="im"></i></a>
+               </div>
+         </div>
+
+    </div><!-- /.row -->
+    </div><!-- /.container -->  
+    </div><!-- /.second-section -->      
+           
+     <!--==================================
+       		Service section ends here
+          ==================================-->  
+     <!--==================================
+       		footer parts starts here
+          ==================================-->     
+          
+    <footer class="footer p82-topbot">
+    <div class="container">
+    <div class="row">
+        <div class="col-sm-6 col-md-3 col-lg-3 all-need">
+            <h2>Address</h2>
+                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div class="faddress">
+               <span>Address :</span> Medical Theme<br>
+                22, North Avenue post here<br>
+                New York city 55862<br>
+               <span>Call :</span> +8856 9984 222<br>
+               <span>Email :</span> <a href="mailto:info@medicaltheme.com">info@medicaltheme.com</a>
+            </div>
+        </div><!-- col-sm-3 -->
+        <div class="col-sm-6 col-md-3 col-lg-3 all-need list-styles">
+    		<h2>Service</h2>
+            <ul>
+                <li><a href="http://tradeskerala.com/medical/#">Cardiology</a></li>
+                <li><a href="http://tradeskerala.com/medical/#">Neurology</a></li>
+                <li><a href="http://tradeskerala.com/medical/#">Cardiac Clinic</a></li>
+                <li><a href="http://tradeskerala.com/medical/#">Laboratory Analysis</a></li>
+                <li><a href="http://tradeskerala.com/medical/#">Dental Clinic</a></li>
+                <li><a href="http://tradeskerala.com/medical/#">Gynecological Clinic</a></li>
+                <li><a href="http://tradeskerala.com/medical/#">Psychological Counseling</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 all-need list-styles">
+    		<h2>Our Doctors</h2>
+            <ul>
+                <li><a href="http://tradeskerala.com/medical/#">Dr. Vasudevayyar</a></li>
+                <li><a href="http://tradeskerala.com/medical/#">Dr. Yardley Rahman</a></li>
+                <li><a href="http://tradeskerala.com/medical/#">Dr. sanusha nair</a></li>
+                <li><a href="http://tradeskerala.com/medical/#">Dr. Rajagopalachari</a></li>
+                <li><a href="http://tradeskerala.com/medical/#">Dr. Samvritha sunil</a></li>
+                <li><a href="http://tradeskerala.com/medical/#">Dr. Krishnayyar Vasudev</a></li>
+                <li><a href="http://tradeskerala.com/medical/#">Dr. Narahari</a></li>
+            </ul>
+        </div>
+        <div class="col-sm-6 col-md-3 col-lg-3 all-need list-styles">
+    		<h2>news letter</h2>
+            <div class="news-letter">
+            	<input type="text" placeholder="Enter Email Address" name="EMAIL" id="mce-EMAIL">
+<div id="mce-responses" class="clear">
+		<div class="block-hide response" id="mce-error-response"></div>
+		<div class="block-hide response" id="mce-success-response"></div>
+	</div>   
+
+                <button type="submit" name="subscribe" id="mc-embedded-subscribe">go</button>
+            </div><!-- /.new-letter -->
+        </div><!-- col-sm-3 -->
+    </div><!-- ./row -->
+    </div><!-- /.container --> 
+           
+    </footer>
+    <div class="copyrights">
+    	<p>Medical Theme © 2015 | All Rights Reserved</p>
+    </div><!-- /.copy-rights -->
+                   
+</div><!-- /.outer-sync -->
+
+
+    <script src="jquery-min.js"></script>
+    <script src="modernizr.custom.68477.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="plugins.js"></script>
+    <script src="jquery.bxslider.js"></script>
+    <script src="main.js"></script>
+    <script type="text/javascript" src="bootstrap-datetimepicker.js" charset="UTF-8"></script>
+	<script type="text/javascript">
+	"use strict";
+        $('.form_date').datetimepicker({
+            language:  'fr',
+            weekStart: 1,
+            todayBtn:  1,
+            autoclose: 1,
+            todayHighlight: 1,
+            startView: 2,
+            minView: 2,
+            forceParse: 0
+        });
+    
+    </script><div class="datetimepicker datetimepicker-dropdown-bottom-right dropdown-menu" style="left: 422.438px; z-index: 1010;"><div class="datetimepicker-minutes" style="display: none;"><table class=" table-condensed"><thead><tr><th class="prev" style="visibility: visible;"><span class="glyphicon glyphicon-arrow-left"></span> </th><th colspan="5" class="switch">31 October 2015</th><th class="next" style="visibility: visible;"><span class="glyphicon glyphicon-arrow-right"></span> </th></tr></thead><tbody><tr><td colspan="7"><span class="minute">16:00</span><span class="minute">16:05</span><span class="minute">16:10</span><span class="minute">16:15</span><span class="minute">16:20</span><span class="minute active">16:25</span><span class="minute">16:30</span><span class="minute">16:35</span><span class="minute">16:40</span><span class="minute">16:45</span><span class="minute">16:50</span><span class="minute">16:55</span></td></tr></tbody><tfoot><tr><th colspan="7" class="today">Today</th></tr></tfoot></table></div><div class="datetimepicker-hours" style="display: none;"><table class=" table-condensed"><thead><tr><th class="prev" style="visibility: visible;"><span class="glyphicon glyphicon-arrow-left"></span> </th><th colspan="5" class="switch">31 October 2015</th><th class="next" style="visibility: visible;"><span class="glyphicon glyphicon-arrow-right"></span> </th></tr></thead><tbody><tr><td colspan="7"><span class="hour">0:00</span><span class="hour">1:00</span><span class="hour">2:00</span><span class="hour">3:00</span><span class="hour">4:00</span><span class="hour">5:00</span><span class="hour">6:00</span><span class="hour">7:00</span><span class="hour">8:00</span><span class="hour">9:00</span><span class="hour">10:00</span><span class="hour">11:00</span><span class="hour">12:00</span><span class="hour">13:00</span><span class="hour">14:00</span><span class="hour">15:00</span><span class="hour active">16:00</span><span class="hour">17:00</span><span class="hour">18:00</span><span class="hour">19:00</span><span class="hour">20:00</span><span class="hour">21:00</span><span class="hour">22:00</span><span class="hour">23:00</span></td></tr></tbody><tfoot><tr><th colspan="7" class="today">Today</th></tr></tfoot></table></div><div class="datetimepicker-days" style="display: block;"><table class=" table-condensed"><thead><tr><th class="prev" style="visibility: visible;"><span class="glyphicon glyphicon-arrow-left"></span> </th><th colspan="5" class="switch">October 2015</th><th class="next" style="visibility: visible;"><span class="glyphicon glyphicon-arrow-right"></span> </th></tr><tr><th class="dow">Mo</th><th class="dow">Tu</th><th class="dow">We</th><th class="dow">Th</th><th class="dow">Fr</th><th class="dow">Sa</th><th class="dow">Su</th></tr></thead><tbody><tr><td class="day old">28</td><td class="day old">29</td><td class="day old">30</td><td class="day">1</td><td class="day">2</td><td class="day">3</td><td class="day">4</td></tr><tr><td class="day">5</td><td class="day">6</td><td class="day">7</td><td class="day">8</td><td class="day">9</td><td class="day">10</td><td class="day">11</td></tr><tr><td class="day">12</td><td class="day">13</td><td class="day">14</td><td class="day">15</td><td class="day">16</td><td class="day">17</td><td class="day">18</td></tr><tr><td class="day">19</td><td class="day">20</td><td class="day">21</td><td class="day">22</td><td class="day">23</td><td class="day">24</td><td class="day">25</td></tr><tr><td class="day">26</td><td class="day">27</td><td class="day">28</td><td class="day">29</td><td class="day">30</td><td class="day today active">31</td><td class="day new">1</td></tr><tr><td class="day new">2</td><td class="day new">3</td><td class="day new">4</td><td class="day new">5</td><td class="day new">6</td><td class="day new">7</td><td class="day new">8</td></tr></tbody><tfoot><tr><th colspan="7" class="today">Today</th></tr></tfoot></table></div><div class="datetimepicker-months" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev" style="visibility: visible;"><span class="glyphicon glyphicon-arrow-left"></span> </th><th colspan="5" class="switch">2015</th><th class="next" style="visibility: visible;"><span class="glyphicon glyphicon-arrow-right"></span> </th></tr></thead><tbody><tr><td colspan="7"><span class="month">Jan</span><span class="month">Feb</span><span class="month">Mar</span><span class="month">Apr</span><span class="month">May</span><span class="month">Jun</span><span class="month">Jul</span><span class="month">Aug</span><span class="month">Sep</span><span class="month active">Oct</span><span class="month">Nov</span><span class="month">Dec</span></td></tr></tbody><tfoot><tr><th colspan="7" class="today">Today</th></tr></tfoot></table></div><div class="datetimepicker-years" style="display: none;"><table class="table-condensed"><thead><tr><th class="prev" style="visibility: visible;"><span class="glyphicon glyphicon-arrow-left"></span> </th><th colspan="5" class="switch">2010-2019</th><th class="next" style="visibility: visible;"><span class="glyphicon glyphicon-arrow-right"></span> </th></tr></thead><tbody><tr><td colspan="7"><span class="year old">2009</span><span class="year">2010</span><span class="year">2011</span><span class="year">2012</span><span class="year">2013</span><span class="year">2014</span><span class="year active">2015</span><span class="year">2016</span><span class="year">2017</span><span class="year">2018</span><span class="year">2019</span><span class="year old">2020</span></td></tr></tbody><tfoot><tr><th colspan="7" class="today">Today</th></tr></tfoot></table></div></div>
+	
+
+
+</body></html>
